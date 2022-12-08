@@ -1,0 +1,18 @@
+LD     I0.0
+A      I0.1
+LD     I0.2
+O      I0.3
+ALD
+LD     I0.5
+A      I0.6
+OLD
+=      Q0.0
+N
+LD     I1.0
+A      I1.1
+LD     I1.2
+A      I1.3
+OLD
+A      I1.4
+=      Q1.0
+N

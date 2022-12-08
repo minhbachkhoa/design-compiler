@@ -1,0 +1,35 @@
+ORGANIZATION_BLOCK MAIN:OB1
+TITLE=PROGRAM COMMENTS
+BEGIN
+Network 1 // Network Title
+// Network Comment
+LD     I0.0
+A      I0.1
+LD     I0.2
+O      I0.3
+ALD
+LD     I0.5
+A      I0.6
+OLD
+=      Q0.0
+Network 2 
+LD     I1.0
+A      I1.1
+LD     I1.2
+A      I1.3
+OLD
+A      I1.4
+=      Q1.0
+END_ORGANIZATION_BLOCK
+SUBROUTINE_BLOCK SBR_0:SBR0
+TITLE=SUBROUTINE COMMENTS
+BEGIN
+Network 1 // Network Title
+// Network Comment
+END_SUBROUTINE_BLOCK
+INTERRUPT_BLOCK INT_0:INT0
+TITLE=INTERRUPT ROUTINE COMMENTS
+BEGIN
+Network 1 // Network Title
+// Network Comment
+END_INTERRUPT_BLOCK
